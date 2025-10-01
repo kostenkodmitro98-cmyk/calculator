@@ -1,0 +1,30 @@
+From 455616c31e860bdee050bb3f2d241f02a73d2b2d Mon Sep 17 00:00:00 2001
+From: Dmytro Kostenko <kostenkodmytro98@gmail.com>
+Date: Thu, 15 Nov 2018 15:26:35 +0200
+Subject: [PATCH 2/2] formatting: use tabs instead of spaces
+
+Signed-off-by: Dmytro Kostenko <kostenkodmytro98@gmail.com>
+---
+ calculator.h | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/calculator.h b/calculator.h
+index 3740907..d59d596 100644
+--- a/calculator.h
++++ b/calculator.h
+@@ -3,9 +3,9 @@
+ 
+ class Calculator
+ {
+-    public:
+-        int Add (double, double);
+-        int Sub (double, double);
++	public:
++		int Add (double, double);
++		int Sub (double, double);
+ };
+ 
+ #endif//CALCULATOR_H
+-- 
+2.51.0.windows.2
+
